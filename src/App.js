@@ -363,7 +363,7 @@ class App extends Component {
                         </Text>
                     </Dot>
                     <Title size="xs">Introduction</Title>
-                    <Text size="xl">This DAPP demonstrates how to allow Gnosis-Safe delegation via Metamask or Ledger, without revealing the private key of users. Note that in this tool, we only show you delegation with Metamask. However, it is very easy to add even more wallet connector (e.g. walletconnect, trezor, etc.) simply by switching the wallet connector for <a href="https://github.com/NoahZinsmeister/web3-react">Web3React</a>.</Text>
+                    <Text size="xl">This DAPP demonstrates how to allow Gnosis-Safe delegation via Metamask, without revealing the private key of users. It is easy to add more wallet connectors (e.g. WalletConnect, Trezor, etc.) by switching the wallet connector for <a href="https://github.com/NoahZinsmeister/web3-react">Web3React</a>.</Text>
                     <Divider/>
                     <Text size="xl" style={{display: "flex", "gap": "4px"}}>Currently supports: {
                         supportedChainID.map((chainId) =>
