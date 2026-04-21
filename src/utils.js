@@ -52,6 +52,10 @@ const NETWORK = {
     "sepolia": {
         CHAINID: 11155111,
         TX_SERVICE_BASE_URL: "https://safe-transaction-sepolia.safe.global"
+    },
+    "megaeth": {
+        CHAINID: 4326,
+        TX_SERVICE_BASE_URL: "https://api.safe.global/tx-service/mega"
     }
 }
 
